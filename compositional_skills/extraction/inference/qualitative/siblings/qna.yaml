@@ -17,6 +17,3 @@ seed_examples:
     attribution:
       - source: self-authored
         license: Apache-2.0
-  - answer: |
-      Sally has three brothers, and each of them has one sister.
-      Sally is their one sister. So, Sally has no sisters.
