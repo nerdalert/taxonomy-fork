@@ -77,9 +77,8 @@ seed_examples:
     processing in other CDS views or consuming solutions.'
 task_description: 'Foobar'
 document:
-  repo: <document-repository-url-goes-here>
-  commit: <commit-hash-to-use>
+  repo: https://github.com/abhi1092/ibm-history-documents
+  commit: 1dc85d0fc19e21ad8adbf5f98bd8aa1e31257d0a
   patterns:
-  - <file-search-patter 1>
-  - <file-search-patter 2>
-  - <file-search-patter 3>
+  - ibm*.md
+  - origins_of_ibm*.md
