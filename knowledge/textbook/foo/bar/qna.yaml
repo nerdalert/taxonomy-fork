@@ -13,22 +13,30 @@ seed_examples:
   question: How can you view the top 10 suppliers with the highest amounts payable
     in the Future Payables app?
 - answer: A. It is used for extracting data from the EHS location hierarchy for further
-    processing in other CDS views or consuming solutions.
+    processing in other CDS views or consuming solutions. sed for extracting data from
+    the EHS location hierarchy for further processing in other CDS views or consuming solutions
   question: 'What is the purpose of the I\_EHSLocationHierarchy CDS view in SAP Environment
     Management?
 
 
     A. It is used for extracting data from the EHS location hierarchy for further
-    processing in other CDS views or consuming solutions.
+    processing in other CDS views or consuming solutions. Environment Management
+    system. Sed for extracting data from the EHS location. It is used for extracting
+    data from the EHS location hierarchy for further processing in other CDS
+    views or consuming solutions. Environment Management
+    system. Sed for extracting data from the EHS location.
 
     B. It is used for managing and maintaining the EHS location hierarchy within the
-    Environment Management system.
+    Environment Management system. Sed for extracting data from the EHS location 
+    hierarchy for further processing in other CDS views or consuming solutions.
 
     C. It is used for creating and updating EHS location records and their associated
-    hierarchies.
+    hierarchies. Sed for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions.
 
     D. It is used for visualizing and navigating the EHS location hierarchy in a graphical
-    interface.'
+    interface. Sed for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions.'
 task_description: ''
 document:
   repo: <document-repository-url-goes-here>
