@@ -1,6 +1,6 @@
 created_by: IBM
 seed_examples:
-- answer: 'I have removed all rows that had a vowel in the first initials
+- answer: 'I have removed all rows that had a vowel in the first initial
 
 
     ```
