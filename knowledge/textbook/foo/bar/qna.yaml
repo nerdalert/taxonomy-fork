@@ -27,8 +27,9 @@ seed_examples:
     system. Sed for extracting data from the EHS location.
 
     B. It is used for managing and maintaining the EHS location hierarchy within the
-    Environment Management system. Sed for extracting data from the EHS location 
+    Environment Management system. Sed for extracting data from the EHS location
     hierarchy for further processing in other CDS views or consuming solutions.
+    hierarchy for further processing in other CDS views or consuming tsolutions.
 
     C. It is used for creating and updating EHS location records and their associated
     hierarchies. Sed for extracting data from the EHS location hierarchy for further
