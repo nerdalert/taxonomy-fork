@@ -1,52 +1,190 @@
-created_by: IBM
+created_by: leeyamin
 seed_examples:
-- answer: 'FlowRepairAgent
+- answer: '```
+
+    | First Initial | Last Name  | Company |
+
+    | ------------- | ---------- | ------- |
+
+    | a             | smith      | xyz     |
+
+    | b             | jones      | xyz     |
+
+    | d             | hicks      | xyz     |
+
+    | g             | burn       | xyz     |
+
+    ```
+
 
     '
-  question: "Classify the following statement into one from the list of available\
-    \ agents. \nYou should return the name only of one of the classes below to answer\
-    \ the question posed to you.\n\nAvailable agents: A list of randomly arranged\
-    \ available agents with definitions to describe the purpose of each.\n\nFlowRepairAgent:\
-    \ This is an agent that enables you to modify a flow\nFlowGeneratorAgent: This\
-    \ is an agent that enables you to create a flow.\n\nYour response should only\
-    \ include the answer. Do not provide any further explanation.\n\nHere are some\
-    \ examples, complete the last one:\n\nInput: send an email with the list of finance\
-    \ customers\nOutput: FlowGeneratorAgent\n\nInput: email the list of job candidates.\
-    \ \nOutput: FlowGeneratorAgent\n\nInput: Add a trello card\nOutput: FlowRepairAgent\n\
-    \nInput: Remove slack message from the sequence\nOutput: FlowRepairAgent\n\nInput:\
-    \ add a notification via slack\nOutput:\n"
-- answer: 'FlowGeneratorAgent
+  question: 'Can you please filter the following table by "Company" of xyz?
+
+
+    ```
+
+    | First Initial | Last Name  | Company |
+
+    | ------------- | ---------- | ------- |
+
+    | a             | smith      | xyz     |
+
+    | b             | jones      | xyz     |
+
+    | c             | george     | abc     |
+
+    | d             | hicks      | xyz     |
+
+    | e             | long       | abc     |
+
+    | f             | parker     | abc     |
+
+    | g             | burn       | xyz     |
+
+    | h             | talbot     | abc     |
+
+    | i             | washington | abc     |
+
+    ```
+
 
     '
-  question: "Classify the following statement into one from the list of available\
-    \ agents. \nYou should return the name only of one of the classes below to answer\
-    \ the question posed to you.\n\nAvailable agents: A list of randomly arranged\
-    \ available agents with definitions to describe the purpose of each.\n\nFlowRepairAgent:\
-    \ This is an agent that enables you to modify a flow\nFlowGeneratorAgent: This\
-    \ is an agent that enables you to create a flow.\n\nYour response should only\
-    \ include the answer. Do not provide any further explanation.\n\nHere are some\
-    \ examples, complete the last one:\n\nInput: create a list of leads for a selected\
-    \ company\nOutput: FlowGeneratorAgent\n\nInput: use salesforce instead of salesoft\
-    \ to retrieve leads\nOutput: FlowRepairAgent\n\nInput: Add the phone numbers to\
-    \ each lead identified\nOutput: FlowRepairAgent\n\nInput: Add email address if\
-    \ phone number not available\nOutput: FlowRepairAgent\n\nInput: Create a list\
-    \ of leads and retrieve titles from linkedIn\nOutput:"
-- answer: 'FlowRepairAgent
+- answer: '
+
+    ```
+
+    | First Initial | Last Name  | Company |
+
+    | ------------- | ---------- | ------- |
+
+    ```
+
 
     '
-  question: "Classify the following statement into one from the list of available\
-    \ agents. \nYou should return the name only of one of the classes below to answer\
-    \ the question posed to you.\n\nAvailable agents: A list of randomly arranged\
-    \ available agents with definitions to describe the purpose of each.\n\nFlowRepairAgent:\
-    \ This is an agent that enables you to modify a flow\nFlowGeneratorAgent: This\
-    \ is an agent that enables you to create a flow.\n\nYour response should only\
-    \ include the answer. Do not provide any further explanation.\n\nHere are some\
-    \ examples, complete the last one:\n\nInput: Send an email when a new event is\
-    \ created in EventBrite\nOutput: FlowGeneratorAgent\n\nInput: use gmail for the\
-    \ email application\nOutput: FlowRepairAgent\n\nInput: Notify me when new guests\
-    \ are registered for an event\nOutput: FlowGeneratorAgent\n\nInput: Add VIP status\
-    \ to repeat guests\nOutput: FlowRepairAgent\n\nInput: Ensure email or phone number\
-    \ are provided when registering a user\nOutput:\n"
-task_description: 'To teach a language model about agent classification
+  question: 'Can you please filter the following table by "Company" of mnp?
+
+    ```
+
+    | First Initial | Last Name  | Company |
+
+    | ------------- | ---------- | ------- |
+
+    | a             | smith      | xyz     |
+
+    | b             | jones      | xyz     |
+
+    | c             | george     | abc     |
+
+    | d             | hicks      | xyz     |
+
+    | e             | long       | abc     |
+
+    | f             | parker     | abc     |
+
+    | g             | burn       | xyz     |
+
+    | h             | talbot     | abc     |
+
+    | i             | washington | abc     |
+
+    ```
+    '
+- answer: '
+
+    ```
+
+    | First Initial | Last Name  | Company | Birthday         |
+
+    | ------------- | ---------- | ------- | ---------------- |
+
+    | d             | hicks      | xyz     | 04/04/1990       |
+
+    | f             | parker     | abc     | 06/04/1986       |
+
+    | i             | washington | abc     | 09/04/1989       |
+
+    ```
+
+
+    '
+  question: 'Can you please filter the following table by "Birthday" to months of 4?
+
+
+    ```
+
+    | First Initial | Last Name  | Company | Birthday         |
+
+    | ------------- | ---------- | ------- | ---------------- |
+
+    | a             | smith      | xyz     | 01/01/1980       |
+
+    | b             | jones      | xyz     | 02/08/1980       |
+
+    | c             | george     | abc     | 03/02/1981       |
+
+    | d             | hicks      | xyz     | 04/04/1990       |
+
+    | e             | long       | abc     | 05/09/1985       |
+
+    | f             | parker     | abc     | 06/04/1986       |
+
+    | g             | burn       | xyz     | 07/12/1982       |
+
+    | h             | talbot     | abc     | 08/07/1990       |
+
+    | i             | washington | abc     | 09/04/1989       |
+
+    ```
+    '
+- answer: '
+
+    ```
+
+    | First Initial | Last Name  | Company | Birthday         |
+
+    | ------------- | ---------- | ------- | ---------------- |
+
+    | d             | hicks      | xyz     | 04/04/1990       |
+
+    | f             | parker     | abc     | 06/04/1986       |
+
+    | i             | washington | abc     | 09/04/1989       |
+
+    ```
+
+
+    '
+  question: 'Can you please filter the following table by "Birthday" in April?
+
+
+    ```
+
+    | First Initial | Last Name  | Company | Birthday         |
+
+    | ------------- | ---------- | ------- | ---------------- |
+
+    | a             | smith      | xyz     | 01/01/1980       |
+
+    | b             | jones      | xyz     | 02/08/1980       |
+
+    | c             | george     | abc     | 03/02/1981       |
+
+    | d             | hicks      | xyz     | 04/04/1990       |
+
+    | e             | long       | abc     | 05/09/1985       |
+
+    | f             | parker     | abc     | 06/04/1986       |
+
+    | g             | burn       | xyz     | 07/12/1982       |
+
+    | h             | talbot     | abc     | 08/07/1990       |
+
+    | i             | washington | abc     | 09/04/1989       |
+
+    ```
+
+
+    '
+task_description: 'To teach a language model about filtering tables by data
 
   '
