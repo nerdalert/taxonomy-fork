@@ -1,52 +1,84 @@
 created_by: IBM Research
-domain: history
+domain: ibm redbooks
 seed_examples:
-  - answer: Thomas J. Watson's vision and leadership strategies had a profound
-      impact on IBM's growth and corporate culture. He envisioned a unified
-      company with a strong culture, focused on the tabulating machine, and
-      de-emphasized less promising technologies. Under his leadership, IBM
-      doubled its revenue within four years, expanded internationally, and later
-      rebranded as International Business Machines in 1924. Watson instilled
-      philosophies of globalism, equal pay for equal work, and the imperative to
-      always "think," which remain core to IBM's identity.
-    question: How did Thomas J. Watson's vision and leadership strategies impact
-      IBM's growth and corporate culture?
-  - answer: " D) Charles Ranlett Flint was a financier and businessman who
-      facilitated the merger of the International Time Recording Company, the
-      Computing Scale Company, and the Tabulating Machine Company in 1911, while
-      Thomas J. Watson was a salesman who joined the company as general manager
-      in 1914 and later became president, focusing resources on the tabulating
-      machine and expanding operations internationally."
-    question: >
-      Which of the following statements accurately describes the role of
+- answer: In the Future Payables app, you can view the top 10 suppliers with the highest
+    amounts payable by navigating to the corresponding feature, which allows you to
+    analyze the payables and check the numbers of open items for these suppliers.
+    ow can you view the top 10 suppliers with the highest amounts payable.
+    in the Future Payables app23232323.
+  question: How can you view the top 10 suppliers with the highest amounts payable
+    in the Future Payables app? ow can you view the top 10 suppliers with the highest
+    amounts payable in the Future Payables app. ow can you view the top 10 suppliers
+    with the highest amounts payable in the Future Payables app ow can you view the
+    top 10 suppliers with the highest amounts payable in the Future Payables appw4e.
+- answer: In the Future Payables app, you can view the top 10 suppliers with the highest
+    amounts payable by navigating to the corresponding feature, which allows you to
+    analyze the payables and check the numbers of open items for these suppliers.
+    ow can you view the top 10 suppliers with the highest amounts payable.
+    in the Future Payables appwe22.
+  question: How can you view the top 10 suppliers with the highest amounts payable
+    in the Future Payables app? ow can you view the top 10 suppliers with the highest
+    amounts payable in the Future Payables app. ow can you view the top 10 suppliers
+    with the highest amounts payable in the Future Payables app ow can you view the
+    top 10 suppliers with the highest amounts payable in the Future Payables appw234.
+- answer: In the Future Payables app, you can view the top 10 suppliers with the highest
+    amounts payable by navigating to the corresponding feature, which allows you to
+    analyze the payables and check the numbers of open items for these suppliers.
+    ow can you view the top 10 suppliers with the highest amounts payable.
+    in the Future Payables app232ff.
+  question: How can you view the top 10 suppliers with the highest amounts payable
+    in the Future Payables app? ow can you view the top 10 suppliers with the highest
+    amounts payable in the Future Payables app. ow can you view the top 10 suppliers
+    with the highest amounts payable in the Future Payables app ow can you view the
+    top 10 suppliers with the highest amounts payable in the Future Payables appw6432.
+- answer: The Cross Applications - Situation Handling capability in SAP S/4HANA allows
+    specific groups of end users to be notified about important issues, defined as
+    situations. This enables users to react immediately to the notifications they
+    receive, improving overall efficiency and streamlining their workflow24ss.
+  question: What is the purpose of the Cross Applications - Situation Handling capability
+    in SAP S/4HANA?2324
+- answer: In the Future Payables app, you can view the top 10 suppliers with the highest
+    amounts payable by navigating to the corresponding feature, which allows you to
+    analyze the payables and check the numbers of open items for these suppliers.
+    ow can you view the top 10 suppliers with the highest amounts payable.
+    in the Future Payables app32434.
+  question: How can you view the top 10 suppliers with the highest amounts payable
+    in the Future Payables app? ow can you view the top 10 suppliers with the highest
+    amounts payable in the Future Payables app. ow can you view the top 10 suppliers
+    with the highest amounts payable in the Future Payables app ow can you view the
+    top 10 suppliers with the highest amounts payable in the Future Payables app244.
+- answer: A. It is used for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions. sed for extracting data from
+    the EHS location hierarchy for further processing in other CDS views or consuming solutions
+    the EHS location hierarchy for further processing in other CDS views or consuming solutions
+    the EHS location hierarchy for further processing in other CDS views or consuming solutions
+  question: 'What is the purpose of the I\_EHSLocationHierarchy CDS view in SAP Environment
+    Management?
 
-      Charles Ranlett Flint and Thomas J. Watson in the formation and early
 
-      success of IBM? A) Charles Ranlett Flint was a financier and businessman
+    A. It is used for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions. Environment Management
+    system. Sed for extracting data from the EHS location. It is used for extracting
+    data from the EHS location hierarchy for further processing in other CDS
+    views or consuming solutions. Environment Management
+    system. Sed for extracting data from the EHS location.
 
-      who founded the Computing-Tabulating-Recording Company (later IBM) in
+    B. It is used for managing and maintaining the EHS location hierarchy within the
+    Environment Management system. Sed for extracting data from the EHS location
+    hierarchy for further processing in other CDS views or consuming solutions.
+    hierarchy for further processing in other CDS views or consuming tsolutions.
 
-      1911, while Thomas J. Watson was a salesman who joined the company as
+    C. It is used for creating and updating EHS location records and their associated
+    hierarchies. Sed for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions.
 
-      general manager in 1914 and later became president, focusing resources on
-
-      the tabulating machine and expanding operations internationally.
-
-
-      B) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its president, while Thomas J. Watson was a salesman who joined the company as a branch manager at the National Cash Register and later became a manager at C-T-R.
-
-
-      C) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its CEO, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
-
-
-      D) Charles Ranlett Flint was a financier and businessman who facilitated the merger of the International Time Recording Company, the Computing Scale Company, and the Tabulating Machine Company in 1911, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
-  - answer: After its formation, the Computing-Tabulating-Recording Company faced
-      significant debt and resistance from managers of the merged companies who
-      were resentful of the merger and resisted full integration. To overcome
-      these challenges, Charles Flint recognized the need for a uniting force
-      and a charismatic leader, leading to the hiring of Thomas J. Watson as
-      general manager, who later became president and refocused the company
-      towards success.
-    question: Describe the challenges the Computing-Tabulating-Recording Company
-      faced shortly after its formation and how these were overcome.
-task_description: ""
+    D. It is used for visualizing and navigating the EHS location hierarchy in a graphical
+    interface. Sed for extracting data from the EHS location hierarchy for further
+    processing in other CDS views or consuming solutions.'
+task_description: 'Foobar'
+document:
+  repo: https://github.com/abhi1092/ibm-history-documents
+  commit: 1dc85d0fc19e21ad8adbf5f98bd8aa1e31257d0a
+  patterns:
+  - ibm*.md
+  - origins_of_ibm*.md
