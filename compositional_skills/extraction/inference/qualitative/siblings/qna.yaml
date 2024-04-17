@@ -1,58 +1,65 @@
----
-- answer: |
-    cyberpunk cityscape at night, rain-soaked streets, neon lights, high detail, 4k resolution
-  question: Prompt for a futuristic city scene in cyberpunk style
-- answer: |
-    serene landscape with a cascading waterfall, sunrise, hyperrealistic, 4k resolution, HDR lighting
-  question: SD prompt for a realistic natural landscape
-- answer: |
-    vintage astronaut exploring an alien planet, retro sci-fi style, vibrant colors, medium shot
-  question: SD prompt for a retro science fiction scene
-- answer: |
-    majestic dragon perched atop a mountain, fantasy art, ultra-detailed scales, sunset background
-  question: SD prompt for a detailed fantasy creature in its habitat
-- answer: |
-    art nouveau portrait of a lady, intricate floral background, soft pastel colors, high detail
-  question: SD prompt for an art nouveau style portrait
-- answer: |
-    steampunk city with flying machines, copper and brass gears, sunset, detailed illustration
-  question: SD prompt for a steampunk cityscape
-- answer: |
-    underwater coral reef scene, vibrant marine life, photorealistic, sunlight filtering through water
-  question: SD prompt for an underwater ecosystem
-- answer: |
-    cybernetic samurai in neon-lit alley, Tokyo by night, dynamic pose, ultra-detailed armor
-  question: SD prompt for a cyberpunk character design
-- answer: |
-    enchanted forest with glowing mushrooms, fantasy, high resolution, mystical creatures hidden within
-  question: I need a stable diffusion prompt for a magical forest scene
-- answer: |
-    post-apocalyptic survivor in deserted city ruins, gritty realism, dawn light, high detail
-  question: make a visual prompt for a post-apocalyptic setting
-- answer: |
-    serene mountain landscape at sunrise, hyper-detailed, 8K resolution, vibrant colors, with emphasis on the play of light and shadow
-  question: Give me a stable diffusion prompt for a detailed mountain landscape
-- answer: |
-    futuristic cityscape with neon lights, flying cars, cyberpunk aesthetics, ultra-detailed, night scene, raining, 4K resolution
-  question: SD prompt for a futuristic city scene
-- answer: |
-    undersea kingdom with glowing coral, schools of shimmering fish, hidden treasure, photorealistic, high detail, 4K
-  question: stable diffusion prompt for an underwater fantasy scene
-- answer: |
-    magical forest at night, bioluminescent plants, fantasy creatures lurking, high detail, enchanting atmosphere, 4K resolution
-  question: Gimme a stablediffusion prompt for a magical forest scene
-- answer: |
-    portrait of a Victorian lady, digital oil painting, high detail, period accurate costume, soft lighting, 4K resolution
-  question: SD prompt for a historical portrait
-- answer: |
-    space battle, two alien fleets clashing, laser beams, detailed spaceships, dynamic composition, ultra-detailed, 8K resolution
-  question: SD prompt for a sci-fi space battle
-- answer: |
-    cyberpunk hacker in a dark room filled with screens, neon accents, moody lighting, high detail, digital art style, 4K resolution
-  question: SD prompt for a cyberpunk character
-- answer: |
-    cozy winter cabin, snow falling, warm light from windows, high detail, serene atmosphere
-  question: SD prompt for a winter scene
-- answer: |
-    abandoned amusement park at twilight, eerie atmosphere, detailed rust and decay, surreal
-  question: SD prompt for a post-apocalyptic scene
+created_by: mmurphy
+task_description: 'Use the NATO Phonetic alphabet'
+seed_examples:
+- answer: 'romeo, echo, delta, hotel, alpha,tango'
+  question: 'Spell ''redhat'' using the nato phonetic alphabet'
+- answer: 'Sierra, Papa, Echo, Lima, Lima'
+  question: 'Spell ''spell'' using the nato phonetic alphabet'
+- answer: 'tango-hotel-echo quebec-uniform-india-charlie-kilo
+           bravo-romeo-oscar-whiskey-november foxtrot-oscar-xray'
+  question: 'Spell ''The quick brown fox'' using the nato phonetic alphabet'
+- answer: 'juliett-uniform-mike-papa-sierra oscar-victor-echo-romeo tango-hotel-echo
+           lima-alpha-zulu-yankee delta-oscar-golf-sierra'
+  question: 'Spell ''jumps over the lazy dogs'' using the nato phonetic alphabet'
+- answer: 'Alpha, November, Sierra, Whiskey, Echo, Romeo'
+  question: 'Spell ''answer'' using the nato phonetic alphabet'
+- answer: 'Quebec, Uniform, Echo, Sierra, Tango, India, Oscar, November'
+  question: 'Spell ''question'' using the nato phonetic alphabet'
+- answer: 'oscar-papa-echo-november sierra-oscar-uniform-romeo-charlie-echo'
+  question: 'using the Nato phonetic alphabet spell ''open source'''
+- answer: 'If someone is having a problem understanding a particular word,
+           you can spell it out using the NATO phonetic alphabet, which is widely used in radio communications.
+           To indicate that you are about to spell the word, it''s normally preceeded by the phrase ''I spell'',
+           for example, to spell the would ''phonetic'' you could say
+           ''I spell papa-hotel-oscar-november-echo-tango-india-charlie'''
+  question: 'how do you talk over a radio link where the other person cannot understand a word due to poor connection'
+- answer: 'The Nato phonetic alphabet is use to aid in the clear reception of information over poor radio
+           communication links,
+           where each letter is replaced by a particular word,
+           The alphapet "ABCDEFGHIJKLMNOPQRSTUVWXYZ" is replaced by the words
+           "Alpha-Bravo-Charlie-Delta-Echo-Foxtrot-Golf-Hotel-India-Juliett-Kilo-Lima-Mike-
+           November-Oscar-Papa-Quebec-Romeo-Sierra-Tango-Uniform-Victor-Whiskey-Xray-Yankee-Zulu"
+           for example the word "what" is replaced with "whiskey-hotel-alpha-tango"'
+  question: 'what is the Nato phonetic alphabet'
+- answer: 'Golf, Alpha, Tango, Echo, Kilo, Echo, Echo, Papa, Echo, Romeo'
+  question: 'Spell ''gatekeeper'' using the NATO phonetic alphabet'
+- answer: 'Alpha, Tango, Romeo, Oscar, Papa, India, Delta, Alpha, Echo'
+  question: 'Spell ''Atropidae'' using the NATO phonetic alphabet'
+- answer: 'Sierra, Hotel, Alpha, Charlie, Kilo, Lima, Echo, Whiskey, India, Sierra, Echo'
+  question: 'Spell ''shacklewise'' using the NATO phonetic alphabet'
+- answer: 'Alpha, Romeo, Charlie, Hotel, India, Bravo, Echo, November, Tango, Hotel, Oscar, Sierra'
+  question: 'Spell ''archibenthos'' using the NATO phonetic alphabet'
+- answer: 'Mike, Oscar, Romeo, Alpha, Charlie, Echo, Oscar, Uniform, Sierra'
+  question: 'Spell ''moraceous'' using the NATO phonetic alphabet'
+- answer: 'Sierra, Tango, Alpha, Tango, Echo, Foxtrot, Uniform, Lima'
+  question: 'Spell ''stateful'' using the NATO phonetic alphabet'
+- answer: 'Whiskey, India, Sierra, Hotel, Mike, Alpha, Yankee'
+  question: 'Spell ''wishmay'' using the NATO phonetic alphabet'
+- answer: 'Foxtrot, Lima, Oscar, Oscar, Romeo, Echo, Romeo'
+  question: 'Spell ''floorer'' using the NATO phonetic alphabet'
+- answer: 'Charlie, Oscar, Uniform, November, Tango, Echo, Romeo, Tango, Romeo, Alpha, Victor, Echo, Romeo,
+           Sierra, Echo'
+  question: 'Spell ''countertraverse'' using the NATO phonetic alphabet'
+- answer: 'Uniform, November, Charlie, Romeo, Alpha, Victor, India, November, Golf, Lima, Yankee'
+  question: 'Spell ''uncravingly'' using the NATO phonetic alphabet'
+- answer: 'Echo, Charlie, Hotel, India, November, Oscar, Sierra, Papa, Hotel, Alpha, Echo, Romeo, India, Tango,
+           Echo, Sierra'
+  question: 'Spell ''Echinosphaerites'' using the NATO phonetic alphabet'
+- answer: 'Bravo, Oscar, Romeo, Alpha, Charlie, India, Foxtrot, Echo, Romeo, Oscar, Uniform, Sierra'
+  question: 'Spell ''boraciferous'' using the NATO phonetic alphabet'
+- answer: 'Mike, Oscar, Romeo, India, November, Golf, Alpha, Delta'
+  question: 'Spell ''moringad'' using the NATO phonetic alphabet'
+- answer: 'Charlie, Oscar, November, Foxtrot, India, Delta, Echo, Romeo'
+  question: 'Spell ''confider'' using the NATO phonetic alphabet'
+- answer: 'Sierra, Uniform, Papa, Echo, Romeo, Charlie, Oscar, Oscar, Lima'
+  question: 'Spell ''supercool'' using the NATO phonetic alphabet'
