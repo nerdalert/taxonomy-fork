@@ -83,5 +83,3 @@ seed_examples:
   question: 'Spell ''sarpo'' using the NATO phonetic alphabet'
 - answer: 'Charlie, Alpha, November, Tango, Hotel, Alpha, Romeo, India, Delta, India, Alpha, November'
   question: 'Spell ''cantharidian'' using the NATO phonetic alphabet'
-
-
