@@ -1,89 +1,172 @@
 created_by: ae2015
 task_description: >
-    Given a passage and a claim, determine if the passage is sufficient
-    to conclude the claim. Pay attention to ambiguities in the passage,
-    such as unresolved pronouns, missing values, and phrases with many
-    possible interpretations.
+  Understand when a bullet list of items means that the items are needed
+  jointly rather than separately.
 seed_examples:
 - context: >
-    Passage:
+    To apply for public benefit XYZ, provide the following:
 
-    This model of XYZ is compatible with Product ABC and Product DEF.
+    * Your full name and date of birth
 
-    Claim:
-
-    Model M1 of accessory XYZ only works with Product ABC and Product DEF.
+    * Your vehicle license plate number
   question: >
-    Is Passage sufficient to conclude Claim?
+    Which of the following is true:
+
+    (A) To apply for public benefit XYZ, you must provide both your full name and vehicle license plate number
+
+    (B) To apply for public benefit XYZ, you must provide either your full name or vehicle license plate number
   answer: >
-    No, the passage is not sufficient to conclude the claim. The claim is
-    about model M1 of accessory XYZ, but the passage does not mention
-    model M1 of accessory XYZ. Phrase "This model of XYZ" in the passage
-    can refer to a different model of XYZ, not necessarily to model M1.
+    (A) To apply for public benefit XYZ, you must provide both your full name and vehicle license plate number
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
 
 - context: >
-    Passage:
+    Form W-2. If you were an employee, you should receive Form W-2 from your employer.
+    You will need the information from this form to prepare your return. See Form W-2
+    under Credit for Withholding and Estimated Tax for 2023 in chapter 4. Your employer
+    is required to provide or send Form W-2 to you no later than January 31, 2024.
+    If it is mailed, you should allow adequate time to receive it before contacting
+    your employer. If you still don't get the form by early February, the IRS can help
+    you by requesting the form from your employer. When you request IRS help, be
+    prepared to provide the following information.
 
-    You can avoid the monthly service fee for ABC Checking Account if you
-    maintain at least $500 minimum daily balance.
+    * Your name, address (including ZIP code), and phone number.
 
-    Claim:
+    * Your SSN.
 
-    ABC Checking Account has a monthly service fee of $10.
+    * Your dates of employment.
+
+    * Your employer's name, address (including ZIP code), and phone number.
   question: >
-    Is Passage sufficient to conclude Claim?
+    Which of the following is true:
+
+    (A) When requesting IRS help, an employee must provide both name and SSN.
+
+    (B) When requesting IRS help, an employee must provide either name or SSN.
   answer: >
-    No, the passage is not sufficient to conclude the claim. The claim
-    states that ABC Checking Account's monthly service fee is $10, but
-    the passage does not mention the fee's amount in any way.
+    (A) When requesting IRS help, an employee must provide both name and SSN.
+  attribution:
+  - source: https://www.irs.gov/publications/p17
+    license: public domain
 
 - context: >
-    Passage:
+    Foreign address. If your address is outside the United States or its territories,
+    enter the city name on the appropriate line of your Form 1040 or 1040-SR.
+    Don't enter any other information on that line, but also complete the spaces below
+    that line.
 
-    What I saw today was the most wonderful and magnificent thing I have ever witnessed.
+    1. Foreign country name.
 
-    Claim:
+    2. Foreign province/state/county.
 
-    Today's solar eclipse has made a strong impression on me.
+    3. Foreign postal code.
+
+    Don't abbreviate the country name. Follow the country's practice for entering
+    the postal code and the name of the province, county, or state.
   question: >
-    Is Passage sufficient to conclude Claim?
+    Which of the following is true:
+
+    (A) If your address is outside the U.S., you must enter both foreign country name
+    and foreign postal code.
+
+    (B) If your address is outside the U.S., you must enter either foreign country name
+    or foreign postal code.
   answer: >
-    No, the passage is not sufficient to conclude the claim. The claim
-    is about a solar eclipse, but the passage makes no mention of a
-    solar eclipse. Phrases "What I saw today" and "the most wonderful
-    and magnificent thing" in the passage could refer to many different
-    things or phenomena, for example to a rocket launch or a blooming
-    meadow; we cannot conclude that they must refer to a solar eclipse.
+    (A) If your address is outside the U.S., you must enter both foreign country name
+    and foreign postal code.
+  attribution:
+  - source: https://www.irs.gov/publications/p17
+    license: public domain
 
 - context: >
-    Passage:
+    TITLE TRANSFERS
 
-    Many tech stocks have been doing really well last week, with XYZ Technologies
-    growing at breakneck pace.
+    When you buy a vehicle, you need to transfer the vehicle's title to establish
+    yourself as the new legal owner.
 
-    Claim:
+    Before you begin:
 
-    The shares of XYZ Technologies grew by more than 300% by the end of last week.
+    1. Have the California Certificate of Title with you. Make sure the title has
+    been signed by the buyer(s), seller(s), and lienholder (if applicable).
+
+    Note: If you do not have the title, complete an Application for Replacement
+    or Transfer of Title (REG 227).
+
+    2. Have the following:
+
+    * Your driver's license number
+
+    * Vehicle license plate number
+
+    * Vehicle identification number (VIN)
+
+    * Legal owner (or lienholder) name and address
+
+    * Vehicle make, model, and year
+
+    * Purchase date and price
+
+    3. Be able to pay the transfer fee. All transfer fees are the responsibility
+    of the buyer.
+
+    4. Allow 30 days from the day DMV receives your documents to process your
+    title transfer.
   question: >
-    Is Passage sufficient to conclude Claim?
+    Which of the following is true:
+
+    (A) To transfer the vehicle's title, you must have both your driver's license
+    number and vehicle license plate number.
+
+    (B) To transfer the vehicle's title, you must have either your driver's license
+    number or vehicle license plate number.
   answer: >
-    No, the passage is not sufficient to conclude the claim. The claim states that
-    the shares of XYZ Technologies grew by more than 300%, but the passage makes
-    no mention of a growth rate above 300%. Phrase "growing at breakneck pace" in
-    the passage is subjective and does not represent any specific number or range.
+    (A) To transfer the vehicle's title, you must have both your driver's license
+    number and vehicle license plate number.
+  attribution:
+  - source: https://www.dmv.ca.gov/portal/dmv-virtual-office/title-transfers/
+    license: public domain
 
 - context: >
-    Passage:
+    To apply for an ID, you must complete a Driver License and Identification Card
+    application and pay any fees. For current ID fees, visit www.dmv.ca.gov.
 
-    One of its key features is the ability to easily work with multiple
-    projects at the same time.
+    1.  Before visiting a DMV office:
 
-    Claim:
+    * Gather the identity, residency, and SSN documents you need to apply for an
+    ID card.
 
-    Maven is able to easily work with multiple projects at the same time.
+    * Effective April 2018 DMV will begin offering an online DL and ID application
+    process. Applicants will complete their electronic application before visiting
+    DMV. Be sure to bring your application confirmation with you to your office visit.
+
+    * Make an appointment before visiting a DMV office. Appointments can be made
+    online at www.dmv.ca.gov or by calling 1-800-777-0133. You may also verify payment
+    options available at the DMV office.
+
+    2.  When you arrive at a DMV office, you will need:
+
+    * Correct fee(s) for your application.
+
+    * Original or certified documents(s) establishing identity, birth date, true full name.
+
+    * Original document establishing proof of SSN if applying for a REAL ID Compliant ID.
+
+    * Residency Document.
+
+    The DMV representative may give you a number and/or direct you to wait. When it
+    is your turn, you will be called to a window to process your application.
   question: >
-    Is Passage sufficient to conclude Claim?
+    Which of the following is true:
+
+    (A) When you arrive at a DMV office, you will need both correct fee(s) for your
+    application and residency document.
+
+    (B) When you arrive at a DMV office, you will need either correct fee(s) for your
+    application or residency document.
   answer: >
-    No, the passage is not sufficient to conclude the claim. The claim is
-    about Maven, but the passage does not mention Maven. Pronoun "its" in
-    the passage can refer to anything, not necessarily to Maven.
+    (A) When you arrive at a DMV office, you will need both correct fee(s) for your
+    application and residency document.
+  attribution:
+  - source: https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/fast-facts/requirements-for-a-california-identification-card-ffdl-6/
+    license: public domain
