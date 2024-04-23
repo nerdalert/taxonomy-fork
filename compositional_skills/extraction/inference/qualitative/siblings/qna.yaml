@@ -3,7 +3,7 @@ task_description: 'Use the NATO Phonetic alphabet'
 seed_examples:
 - context: >
     Form W-2
-- answer: 'romeo, echo, delta, hotel, alpha,tango'
+  answer: 'romeo, echo, delta, hotel, alpha,tango'
   question: 'Spell ''redhat'' using the nato phonetic alphabet'
 - answer: 'Sierra, Papa, Echo, Lima, Lima'
   question: 'Spell ''spell'' using the nato phonetic alphabet'
