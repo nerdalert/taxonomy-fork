@@ -1,43 +1,78 @@
-created_by: russellb
-task_description: Reasoning about sibling relationships
+---
+created_by: bsalisbu
 seed_examples:
-  - answer: |
-      David has three sisters, and each of them has one brother.
-      David is their one brother. So, David has no brothers.
-    question: |
-      David has three sisters. Each of them has one brother. How many brothers does David have?
-    attribution:
-      - source: self-authored
-        license: Apache-2.0
-  - answer: |
-      David has three sisters, and each of them has two brothers.
-      David is their one brother. So, David has one brother.
-    question: |
-      David has three sisters. Each of them has two brothers. How many brothers does David have?
-    attribution:
-      - source: self-authored
-        license: Apache-2.0
-  - answer: |
-      Sally has three brothers, and each of them has one sister.
-      Sally is their one sister. So, Sally has no sisters.
-    question: |
-      Sally has three brothers. Each of them has one sister. How many sisters does Sally have?
-    attribution:
-      - source: self-authored
-        license: Apache-2.0
-  - answer: |
-      Sally has three brothers, and each of them has two sisters.
-      Sally is their one sister. So, Sally has one sister.
-    question: |
-      Sally has three brothers. Each of them has two sisters. How many sisters does Sally have?
-    attribution:
-      - source: self-authored
-        license: Apache-2.0
-  - answer: |
-      Sally has one brother and one sister. There are two sisters and one brother.
-      Sally's brother has two sisters.
-    question: |
-      Sally has one brother and one sister. How many sisters does Sally's brother have?
-    attribution:
-      - source: self-authored
-        license: Apache-2.0
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  question: >
+      can you solve the following riddle? Two turkeys in front of the turkey,
+      two turkeys behind the turkey, tell me how many total turkeys?
+  answer: >
+      There are three turkeys in total. In this riddle, when it mentions "two
+      turkeys in front of the turkey” it's referring to the arrangement of
+      turkeys in relation to a last turkey and when it mentions "two turkeys
+      behind the turkey” it's referring to the arrangement of turkeys in
+      relation to the first turkey. So, with the arrangement of a total of three
+      turkeys it can satisfy both the conditions.
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  question: >
+      question-2 can you solve the following riddle? Two turkeys in front of the turkey,
+      two turkeys behind the turkey, tell me how many total turkeys?
+  answer: >
+      There are three turkeys in total. In this riddle, when it mentions "two
+      turkeys in front of the turkey” it's referring to the arrangement of
+      turkeys in relation to a last turkey and when it mentions "two turkeys
+      behind the turkey” it's referring to the arrangement of turkeys in
+      relation to the first turkey. So, with the arrangement of a total of three
+      turkeys it can satisfy both the conditions.
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  question: >
+      question-3 can you solve the following riddle? Two turkeys in front of the turkey,
+      two turkeys behind the turkey, tell me how many total turkeys?
+  answer: >
+      There are three turkeys in total. In this riddle, when it mentions "two
+      turkeys in front of the turkey” it's referring to the arrangement of
+      turkeys in relation to a last turkey and when it mentions "two turkeys
+      behind the turkey” it's referring to the arrangement of turkeys in
+      relation to the first turkey. So, with the arrangement of a total of three
+      turkeys it can satisfy both the conditions.
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  question: >
+      question-4 can you solve the following riddle? Two turkeys in front of the turkey,
+      two turkeys behind the turkey, tell me how many total turkeys?
+  answer: >
+      There are three turkeys in total. In this riddle, when it mentions "two
+      turkeys in front of the turkey” it's referring to the arrangement of
+      turkeys in relation to a last turkey and when it mentions "two turkeys
+      behind the turkey” it's referring to the arrangement of turkeys in
+      relation to the first turkey. So, with the arrangement of a total of three
+      turkeys it can satisfy both the conditions.
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  question: >
+      question-5 can you solve the following riddle? Two turkeys in front of the turkey,
+      two turkeys behind the turkey, tell me how many total turkeys?
+  answer: >
+      There are three turkeys in total. In this riddle, when it mentions "two
+      turkeys in front of the turkey” it's referring to the arrangement of
+      turkeys in relation to a last turkey and when it mentions "two turkeys
+      behind the turkey” it's referring to the arrangement of turkeys in
+      relation to the first turkey. So, with the arrangement of a total of three
+      turkeys it can satisfy both the conditions.
+  attribution:
+  - source: self-authored
+    license: Apache-2.0
