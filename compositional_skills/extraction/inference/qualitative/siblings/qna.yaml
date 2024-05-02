@@ -2,7 +2,7 @@
 created_by: bsalisbu
 seed_examples:
 - context: >
-    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+    Form HOTDOGS HAMBURGERS PANCAKES
   question: >
       can you solve the following riddle? Two turkeys in front of the turkey,
       two turkeys behind the turkey, tell me how many total turkeys?
@@ -17,7 +17,7 @@ seed_examples:
   - source: self-authored
     license: Apache-2.0
 - context: >
-    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+    HOTDOGS HAMBURGERS PANCAKES HOTDOGS
   question: >
       question-2 can you solve the following riddle? Two turkeys in front of the turkey,
       two turkeys behind the turkey, tell me how many total turkeys?
@@ -32,7 +32,7 @@ seed_examples:
   - source: self-authored
     license: Apache-2.0
 - context: >
-    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+    HOTDOGS HAMBURGERS PANCAKES HOTDOGS
   question: >
       question-3 can you solve the following riddle? Two turkeys in front of the turkey,
       two turkeys behind the turkey, tell me how many total turkeys?
@@ -47,7 +47,7 @@ seed_examples:
   - source: self-authored
     license: Apache-2.0
 - context: >
-    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+    HOTDOGS HAMBURGERS PANCAKES HOTDOGS
   question: >
       question-4 can you solve the following riddle? Two turkeys in front of the turkey,
       two turkeys behind the turkey, tell me how many total turkeys?
@@ -62,7 +62,7 @@ seed_examples:
   - source: self-authored
     license: Apache-2.0
 - context: >
-    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+    HOTDOGS HAMBURGERS PANCAKES HOTDOGS
   question: >
       question-5 can you solve the following riddle? Two turkeys in front of the turkey,
       two turkeys behind the turkey, tell me how many total turkeys?
