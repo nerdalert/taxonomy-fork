@@ -1,0 +1,25 @@
+created_by: mmurphy
+task_description: 'Use the NATO Phonetic alphabet'
+seed_examples:
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  answer: 'romeo, echo, delta, hotel, alpha,tango'
+  question: 'Spell ''redhat'' using the nato phonetic alphabet'
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  answer: 'Sierra, Papa, Echo, Lima, Lima'
+  question: 'Spell ''spell'' using the nato phonetic alphabet'
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  answer: 'tango-hotel-echo quebec-uniform-india-charlie-kilo
+           bravo-romeo-oscar-whiskey-november foxtrot-oscar-xray'
+  question: 'Spell ''The quick brown fox'' using the nato phonetic alphabet'
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  answer: 'juliett-uniform-mike-papa-sierra oscar-victor-echo-romeo tango-hotel-echo
+           lima-alpha-zulu-yankee delta-oscar-golf-sierra'
+  question: 'Spell ''jumps over the lazy dogs'' using the nato phonetic alphabet'
+- context: >
+    Form W-2 HAMBURGERS PANCAKES HOTDOGS
+  answer: 'Alpha, November, Sierra, Whiskey, Echo, Romeo'
+  question: 'Spell ''answer'' using the nato phonetic alphabet'
